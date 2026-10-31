@@ -86217,5 +86217,65 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-10-31T23:49:48.608026+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "4529aeb904457dde03e2649c2d45b6683386646e",
+    "url": "https://github.com/WebKit/WebKit/commit/4529aeb904457dde03e2649c2d45b6683386646e",
+    "message": "[Image Redux] Add ImageDrawDescriptor to encapsulate image drawing requests\nhttps://bugs.webkit.org/show_bug.cgi?id=329604\n\nReviewed by Darin Adler.\n\nReplaces ConcreteObjectSize, an ImageDrawingOptions and an optional ImageDrawingExtras with a single\nImageDrawDescriptor type. Inside ImageDrawDescrip",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-10-31T23:50:27.640045+00:00",
+    "repo": "swiftlang/swift",
+    "sha": "53f75912d6f63737c588d44669e4813cdecb7d0d",
+    "url": "https://github.com/swiftlang/swift/commit/53f75912d6f63737c588d44669e4813cdecb7d0d",
+    "message": "Merge pull request #93721 from swiftlang/wip-ktoso-stack-send-01-sync-operation-task-minimal\n\n[Concurrency][oneway] Synchronous discarding tasks",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-10-31T23:51:06.345723+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "031aa9af2d3a19c588abe6e9d77fe9e44e12f949",
+    "url": "https://github.com/WebKit/WebKit/commit/031aa9af2d3a19c588abe6e9d77fe9e44e12f949",
+    "message": "[Image Redux] Merge Style::ImageDrawingExtras into ImageDrawingExtras\nhttps://bugs.webkit.org/show_bug.cgi?id=329462\n\nReviewed by Darin Adler.\n\nNow that Image is no longer in platform, there is no longer any reason for ImageDrawingExtras to be\nan abstract base class. Instead, we can merge Style::Ima",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
