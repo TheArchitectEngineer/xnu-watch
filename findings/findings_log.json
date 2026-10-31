@@ -86177,5 +86177,45 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-10-31T20:31:12.512288+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "c3b920b4875c78148313d2d2b4676b2f21f6889c",
+    "url": "https://github.com/WebKit/WebKit/commit/c3b920b4875c78148313d2d2b4676b2f21f6889c",
+    "message": "[JSC] Introduce op_call_varargs_with_spread\nhttps://bugs.webkit.org/show_bug.cgi?id=319336\nrdar://182151036\n\nReviewed by Yusuke Suzuki.\n\nSpread calls currently emit op_new_array_with_spread and hand the result to\nop_call_varargs, so we allocate an array that is dead as soon as the callee frame\nis bu",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-10-31T20:31:50.461354+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "4f16e9eb385db3ca1460ca1ed97cc16823e190fc",
+    "url": "https://github.com/WebKit/WebKit/commit/4f16e9eb385db3ca1460ca1ed97cc16823e190fc",
+    "message": "[Wasm] BBQ should use the one-side shuffle path on x86_64 too\nhttps://bugs.webkit.org/show_bug.cgi?id=329443\n\nReviewed by Yusuke Suzuki.\n\n325076@main made BBQ emit a single DUP or TBL for an i8x16.shuffle that reads\nonly one of its inputs, but only on ARM64. x86_64 still emitted two constants,\ntwo V",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
