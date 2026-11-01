@@ -86377,5 +86377,85 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T16:29:31.909824+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "464bc663e6271b897cb7ebf592bef44a1f8d6b42",
+    "url": "https://github.com/WebKit/WebKit/commit/464bc663e6271b897cb7ebf592bef44a1f8d6b42",
+    "message": "[Image Redux] Remove unused includes of SVGImage.h\nhttps://bugs.webkit.org/show_bug.cgi?id=329713\n\nReviewed by Darin Adler.\n\n* Source/WebCore/html/canvas/CanvasRenderingContext2DBase.cpp:\n* Source/WebCore/loader/cache/CachedImage.cpp:\n* Source/WebCore/page/SettingsBase.cpp:\n\nCanonical link: https://",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T16:30:09.480894+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "31261e987789d8093b7a4975b0b1b03c3c83bb3f",
+    "url": "https://github.com/WebKit/WebKit/commit/31261e987789d8093b7a4975b0b1b03c3c83bb3f",
+    "message": "[JSC] Missing mutatorFence in four DFG/FTL array allocation lowerings\nhttps://bugs.webkit.org/show_bug.cgi?id=324155\nrdar://187380477\n\nReviewed by Yusuke Suzuki.\n\nThe JIT allocation primitives do not fence; ordering a new cell's initializing\nstores ahead of the store that publishes it is the caller'",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T16:30:47.517403+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "6543b0c4dc51384938986be90b1e2fbd4991de65",
+    "url": "https://github.com/WebKit/WebKit/commit/6543b0c4dc51384938986be90b1e2fbd4991de65",
+    "message": "[JSC] Object allocation sinking's InlineCallFrame guard must consider the whole inline stack\nhttps://bugs.webkit.org/show_bug.cgi?id=322466\nrdar://183653137\n\nReviewed by Keith Miller.\n\nshouldDemote() only inspected the allocation's immediate InlineCallFrame, so an\nallocation in a plain inlined frame",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T16:31:25.526692+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "c1c0965989e6702cf1bcb2d72b2930defbdaf8cb",
+    "url": "https://github.com/WebKit/WebKit/commit/c1c0965989e6702cf1bcb2d72b2930defbdaf8cb",
+    "message": "[JSC] ConstantFoldingPhase's by-val to by-id conversions should preserve the property edge's check\nhttps://bugs.webkit.org/show_bug.cgi?id=321515\nrdar://178211669\n\nReviewed by Yusuke Suzuki.\n\nNode::convertTo{Get,Put,In}ByIdMaybeMegamorphic clears every edge of the\nby-val node it converts, but the by",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
