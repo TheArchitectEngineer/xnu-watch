@@ -86317,5 +86317,65 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T09:49:16.541064+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "5eb574b25c0ecef997a275ce2be34a8b501a61f5",
+    "url": "https://github.com/WebKit/WebKit/commit/5eb574b25c0ecef997a275ce2be34a8b501a61f5",
+    "message": "[JSC] JSON.parse should build arrays without going through the generic array initialization\nhttps://bugs.webkit.org/show_bug.cgi?id=329699\nrdar://191501869\n\nReviewed by Sosuke Suzuki.\n\nIn this patch, we optimize materializeArray in JSON parser. It now allocates\nthe butterfly, fills the elements and ",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T09:49:54.725195+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a906134775d802c9a8096db545ad5b7f2c3bd38e",
+    "url": "https://github.com/WebKit/WebKit/commit/a906134775d802c9a8096db545ad5b7f2c3bd38e",
+    "message": "[WebVTT] WPT tests embedded_style_cascade_priority.html and embedded_style_multiple_tracks.html are image failures\nrdar://191130060\nhttps://bugs.webkit.org/show_bug.cgi?id=329135\n\nReviewed by Antti Koivisto.\n\nCurrently, WebCore will take STYLE blocks parsed out of the WebVTT file and create a <style",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T09:50:32.649308+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "d05eb32f6fc000907483128650e715b82b9629cc",
+    "url": "https://github.com/WebKit/WebKit/commit/d05eb32f6fc000907483128650e715b82b9629cc",
+    "message": "Web Inspector: Sources: SVG preview is blank when it references <symbol> from <defs>\nrdar://151300634\nhttps://bugs.webkit.org/show_bug.cgi?id=292984\n\nReviewed by Devin Rousso.\n\nThe SVG only draws the group matched by :target, so it needs the URL fragment.\nThe preview and http(s) views dropped the fr",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
