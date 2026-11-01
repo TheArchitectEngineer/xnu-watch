@@ -86277,5 +86277,45 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T02:43:00.625737+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "375cae0f01b6f5196106eb4906100591292e5d28",
+    "url": "https://github.com/WebKit/WebKit/commit/375cae0f01b6f5196106eb4906100591292e5d28",
+    "message": "Web Inspector: Pausing at the next statement stops in scripts of internal worlds\nhttps://bugs.webkit.org/show_bug.cgi?id=329024\nrdar://187630174\n\nReviewed by Devin Rousso.\n\nA content world whose configuration is not inspectable is an internal world, which Web Inspector\nis not meant to show, but the ",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T02:43:38.695344+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "74ab79c0828d619a18310aee5e13ad15a0ec8f2f",
+    "url": "https://github.com/WebKit/WebKit/commit/74ab79c0828d619a18310aee5e13ad15a0ec8f2f",
+    "message": "[Image Redux] Move ImageDrawingOptions to loader/images/ and add a new RasterDrawingOptions for platform image drawing\nhttps://bugs.webkit.org/show_bug.cgi?id=329590\n\nReviewed by Darin Adler.\n\nImageDrawingOptions held both options that only an Image understands (decoding mode, subsampling,\ndebug bac",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
