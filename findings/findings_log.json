@@ -86457,5 +86457,45 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T20:41:51.530317+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "41a3299b7049efef1b2c5c639575979649595d9a",
+    "url": "https://github.com/WebKit/WebKit/commit/41a3299b7049efef1b2c5c639575979649595d9a",
+    "message": "[JSC] IRO's ArithAbs transform can pin freed range bound proofs\nhttps://bugs.webkit.org/show_bug.cgi?id=322839\nrdar://186081881\n\nReviewed by Yijia Huang.\n\nSince 319726@main, rangeFor() returns RangeBounds whose proof field is a\nraw pointer into the queried node's relationship Vector. The ArithAbs\ntr",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T20:42:29.858142+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a751f585a20e06348776784962c7811267318542",
+    "url": "https://github.com/WebKit/WebKit/commit/a751f585a20e06348776784962c7811267318542",
+    "message": "[Site Isolation] Web Inspector: DOM breakpoints on nodes in cross-origin iframes never pause\nhttps://bugs.webkit.org/show_bug.cgi?id=298981\nrdar://188833088\n\nReviewed by Basuke Suzuki.\n\nA DOM breakpoint on a node in a cross-origin iframe was listed but never paused (also rdar://188015223): the front",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
