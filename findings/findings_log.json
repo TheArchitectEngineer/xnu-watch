@@ -86497,5 +86497,105 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T23:59:07.259152+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "2210716ccc34ba29167a0e3fdea677115a4615c4",
+    "url": "https://github.com/WebKit/WebKit/commit/2210716ccc34ba29167a0e3fdea677115a4615c4",
+    "message": "[JSC] Add `NewProxyObject` DFG node\nhttps://bugs.webkit.org/show_bug.cgi?id=329703\n\nReviewed by Yusuke Suzuki.\n\n`new Proxy(target, handler)` is a generic Construct call in DFG and FTL. This\npatch adds a NewProxyObject node for it.\n\nThe Structure and the constructor bit of a ProxyObject depend on whe",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-01T23:59:47.563477+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "2d4cefa9daa1326603eab4b6c1e8971d07f8abc5",
+    "url": "https://github.com/WebKit/WebKit/commit/2d4cefa9daa1326603eab4b6c1e8971d07f8abc5",
+    "message": "[JSC] `JSCellButterfly::createFromArray` should share the butterfly of a `CopyOnWriteArrayWithContiguous` array\nhttps://bugs.webkit.org/show_bug.cgi?id=329640\n\nReviewed by Yusuke Suzuki.\n\ncreateFromArray has a path which reuses the JSCellButterfly of the input when it\nis a CopyOnWriteArrayWithContig",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T00:00:27.650347+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a48afb70f2df4105d2712862a9d5a735a70d5599",
+    "url": "https://github.com/WebKit/WebKit/commit/a48afb70f2df4105d2712862a9d5a735a70d5599",
+    "message": "[Image Redux] Pass the appearance and settings an SVG image uses through ImageDrawDescriptor\nhttps://bugs.webkit.org/show_bug.cgi?id=329709\n\nReviewed by Darin Adler.\n\nUnify how SVGImage gets its input parameters by adding appearance and other settings that it was\npreviously getting through other mea",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T00:01:07.898823+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "345b9e5d854b0a69f9b7506aec5123fdf0a612e3",
+    "url": "https://github.com/WebKit/WebKit/commit/345b9e5d854b0a69f9b7506aec5123fdf0a612e3",
+    "message": "Refactoring: replace WK_LIB_JSC_TOOLS_UNSUPPORTED with WK_JAVASCRIPTCORE_TOOLS_SUPPORTED.\nhttps://bugs.webkit.org/show_bug.cgi?id=329625\nrdar://191434209\n\nReviewed by Vassili Bykov.\n\nWK_LIB_JSC_TOOLS_UNSUPPORTED asserted a negative condition (\"unsupported\").  This is more\ndifficult to reason with, a",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T00:01:47.809356+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "0e1e9be41815083e321c6a18e62954ff6521c331",
+    "url": "https://github.com/WebKit/WebKit/commit/0e1e9be41815083e321c6a18e62954ff6521c331",
+    "message": "Fix cross-site info leak via CSP blockedURI for object and embed navigations with redirects\nhttps://bugs.webkit.org/show_bug.cgi?id=311521\nrdar://174027380\n\nReviewed by Anne van Kesteren.\n\nSecurityPolicyViolationEvent's blockedURI exposes the post-redirect destination\nURL when object-src blocks redi",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
