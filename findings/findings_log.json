@@ -86597,5 +86597,65 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T04:02:24.057827+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "311da4540c5f3af9fc926d79c27097bb2b7c2e6d",
+    "url": "https://github.com/WebKit/WebKit/commit/311da4540c5f3af9fc926d79c27097bb2b7c2e6d",
+    "message": "[OMG] non-tail indirect call needs to switch instances inside the patchpoint\nhttps://bugs.webkit.org/show_bug.cgi?id=323038\nrdar://183442838\n\nReviewed by Marcus Plutowski.\n\nRight now we only switch instances for tail indirect calls inside the\npatchpoint. For other calls we do it outside, however for",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T04:03:02.143563+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "609fc1ce23df800d73c1daa800f719aeb691928a",
+    "url": "https://github.com/WebKit/WebKit/commit/609fc1ce23df800d73c1daa800f719aeb691928a",
+    "message": "[JSC] JSON.parse should match more repeated string values against the source text\nhttps://bugs.webkit.org/show_bug.cgi?id=329490\nrdar://191351073\n\nReviewed by Keith Miller.\n\nJSONCache matched a repeated string value against the source text only when its\nquoted text fit in the short value table's 32 ",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T04:03:39.891838+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "e41ec233401e43c1a11caea78fe17e41c0353c06",
+    "url": "https://github.com/WebKit/WebKit/commit/e41ec233401e43c1a11caea78fe17e41c0353c06",
+    "message": "Web Inspector: A pause requested for the next statement is forgotten by the debugger agent when the global object is cleared\nhttps://bugs.webkit.org/show_bug.cgi?id=329134\nrdar://189444035\n\nReviewed by Zak Ridouh.\n\nInspectorDebuggerAgent::didClearGlobalObject() ran clearDebuggerBreakpointState(), wh",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
