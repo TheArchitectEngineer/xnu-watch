@@ -86657,5 +86657,85 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T12:41:17.815787+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "36a24faddec226eb1bf9d83e9b98090752f27cfc",
+    "url": "https://github.com/WebKit/WebKit/commit/36a24faddec226eb1bf9d83e9b98090752f27cfc",
+    "message": "Canonicalize incoming MIME types\nhttps://bugs.webkit.org/show_bug.cgi?id=329737\nrdar://191522369\n\nReviewed by Ryosuke Niwa.\n\nWebKit didn't canonicalize every MIME type it received. The soup backend didn't\nlowercase them, and those from clients, as for loadData:MIMEType:, and from web\narchives kept t",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T12:41:55.668857+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "f8d416f118202cfdb6b41a131df206d031c78381",
+    "url": "https://github.com/WebKit/WebKit/commit/f8d416f118202cfdb6b41a131df206d031c78381",
+    "message": "[AXCustomColorMode] Force disable AXCustomColorMode on certain sites\nrdar://190770135\nhttps://bugs.webkit.org/show_bug.cgi?id=328569\n\nReviewed by Simon Fraser and Lily Spiniolas.\n\nSome sites don't play well with AXCustomColorMode, so there is a need to\nforce disable AXCustomColorMode on certain site",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T12:42:33.681410+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "df6994b59c7e9bf3aeace54c8c42274c49bd7a3e",
+    "url": "https://github.com/WebKit/WebKit/commit/df6994b59c7e9bf3aeace54c8c42274c49bd7a3e",
+    "message": "Safari 27 Back navigation skips a valid session history entry that remains traversable via Navigation API\nrdar://186603812\nhttps://bugs.webkit.org/show_bug.cgi?id=323364\n\nReviewed by Chris Dumez.\n\nA cross-document navigation started by script without a user gesture used to flag its new back/forward ",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T12:43:12.433232+00:00",
+    "repo": "swiftlang/swift",
+    "sha": "f5a2f7d3ee8b6aef8cc6eb5d9ee2805d2d290c83",
+    "url": "https://github.com/swiftlang/swift/commit/f5a2f7d3ee8b6aef8cc6eb5d9ee2805d2d290c83",
+    "message": "[Windows] [Backtracing] Add Windows UI app improvements for crash logs\n\nFixes #93126\n\nIf the crashing program has no console (e.g. it's a UI program), launch `swift-backtrace.exe` with `CREATE_NO_WINDOW` so that UI apps don't get a console window flashing up on the desktop when a crash is trapped by",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
