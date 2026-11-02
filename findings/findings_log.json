@@ -86737,5 +86737,125 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T21:58:21.004218+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a2bc1ad9909ef30f41c3fe35f1ebcf78c6c2db2b",
+    "url": "https://github.com/WebKit/WebKit/commit/a2bc1ad9909ef30f41c3fe35f1ebcf78c6c2db2b",
+    "message": "[JSC] JSPI: WebAssembly.Suspending wrapper callable from valueOf re-entry\nhttps://bugs.webkit.org/show_bug.cgi?id=321455\nrdar://178709201\n\nReviewed by Yusuke Suzuki and Keith Miller.\n\nnew WebAssembly.Suspending(f) returned a callable host function, so the JSPI\nstack-evacuation machinery could be ent",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T21:58:59.178376+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "131c95e85e08d2fa2684b193f536a59c3544265d",
+    "url": "https://github.com/WebKit/WebKit/commit/131c95e85e08d2fa2684b193f536a59c3544265d",
+    "message": "[JSC] Fix ARM64 load-exclusive / store-exclusive atomic sequences\nhttps://bugs.webkit.org/show_bug.cgi?id=329717\nrdar://191511640\n\nReviewed by Sosuke Suzuki.\n\nThe LDXR / STXR based atomics had three issues. (Note: this means it\ndoes not affect on Apple platforms as all supported CPUs with JIT are\nha",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T21:59:37.742867+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a88462527b70e12989f4ce72afa8697e43334f84",
+    "url": "https://github.com/WebKit/WebKit/commit/a88462527b70e12989f4ce72afa8697e43334f84",
+    "message": "[Site Isolation] Web Inspector: Type profiler and code coverage toggles do not reach frame targets\nhttps://bugs.webkit.org/show_bug.cgi?id=328714\nrdar://problem/190887811\n\nReviewed by Basuke Suzuki and BJ Burg.\n\nTurning on \"Show JavaScript type information\" or \"Enable code coverage\" while Web Inspec",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T22:00:16.505445+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "c983da47ed36fba593ec9b0d855de2b0abef599c",
+    "url": "https://github.com/WebKit/WebKit/commit/c983da47ed36fba593ec9b0d855de2b0abef599c",
+    "message": "RTT::jsToWasmICEntrypoint should use DoNotHaveTagRegisters\nhttps://bugs.webkit.org/show_bug.cgi?id=321609\nrdar://178703923\n\nReviewed by Yusuke Suzuki.\n\nLocal lambda materializeTagRegistersIfNeeded is not called in all\nbranches of the switch statement in jsToWasmICEntrypoint which may allow\na stale v",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T22:00:54.883956+00:00",
+    "repo": "swiftlang/swift",
+    "sha": "80f62a55ffee440fee06bcfaaf15b008051587ab",
+    "url": "https://github.com/swiftlang/swift/commit/80f62a55ffee440fee06bcfaaf15b008051587ab",
+    "message": "this is why I should check Claudes homework more carefully :(",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-02T22:01:34.055538+00:00",
+    "repo": "swiftlang/swift",
+    "sha": "dc4816e30b03aab5f44a484cacffe3c4c069a3c7",
+    "url": "https://github.com/swiftlang/swift/commit/dc4816e30b03aab5f44a484cacffe3c4c069a3c7",
+    "message": "attempt to fix broken unit tests",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
