@@ -87197,5 +87197,85 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T23:34:03.572760+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "434d44d4ea2efe03dae498c8b515ea25c5ab4c35",
+    "url": "https://github.com/WebKit/WebKit/commit/434d44d4ea2efe03dae498c8b515ea25c5ab4c35",
+    "message": "Unreviewed, speculative build fix\nhttps://bugs.webkit.org/show_bug.cgi?id=330038\nrdar://191730689\n\n* Source/JavaScriptCore/Configurations/TestExecutable.xcconfig:\n\nCanonical link: https://commits.webkit.org/325663@main",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T23:34:41.704176+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "3f62e675c443934f6739b81d5bd6c6091f8e9c0a",
+    "url": "https://github.com/WebKit/WebKit/commit/3f62e675c443934f6739b81d5bd6c6091f8e9c0a",
+    "message": "[JSC] `stress/regress-174463162.js` is flaky with `collectContinuously`\nhttps://bugs.webkit.org/show_bug.cgi?id=329993\n\nReviewed by Yusuke Suzuki.\n\n$vm.installPropertyInlineCacheClearingWatchpointWithDeadOwner scribbles the header of proto\nand returns to JS while proto is still live, so any later GC",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T23:35:19.978216+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "31261e987789d8093b7a4975b0b1b03c3c83bb3f",
+    "url": "https://github.com/WebKit/WebKit/commit/31261e987789d8093b7a4975b0b1b03c3c83bb3f",
+    "message": "[JSC] Missing mutatorFence in four DFG/FTL array allocation lowerings\nhttps://bugs.webkit.org/show_bug.cgi?id=324155\nrdar://187380477\n\nReviewed by Yusuke Suzuki.\n\nThe JIT allocation primitives do not fence; ordering a new cell's initializing\nstores ahead of the store that publishes it is the caller'",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T23:36:00.651880+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "2210716ccc34ba29167a0e3fdea677115a4615c4",
+    "url": "https://github.com/WebKit/WebKit/commit/2210716ccc34ba29167a0e3fdea677115a4615c4",
+    "message": "[JSC] Add `NewProxyObject` DFG node\nhttps://bugs.webkit.org/show_bug.cgi?id=329703\n\nReviewed by Yusuke Suzuki.\n\n`new Proxy(target, handler)` is a generic Construct call in DFG and FTL. This\npatch adds a NewProxyObject node for it.\n\nThe Structure and the constructor bit of a ProxyObject depend on whe",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
