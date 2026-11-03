@@ -87097,5 +87097,105 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T18:30:42.912707+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "419e6e42046f3c7c2ba817144ba567ac4649753c",
+    "url": "https://github.com/WebKit/WebKit/commit/419e6e42046f3c7c2ba817144ba567ac4649753c",
+    "message": "[JSC] Parameter expressions should be detected as uses of enclosing variables even if redeclared in the function body\nhttps://bugs.webkit.org/show_bug.cgi?id=329883\nrdar://191640349\n\nReviewed by Yusuke Suzuki.\n\nGiven the following example:\n\n    function outer() {\n        var x = 1;\n        return (f",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T18:31:21.609621+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "72e8b46b3320769b979c7c93947a78759f241ac8",
+    "url": "https://github.com/WebKit/WebKit/commit/72e8b46b3320769b979c7c93947a78759f241ac8",
+    "message": "[JSC] B3 `resetReachability` should look for Phis only in dead blocks\nhttps://bugs.webkit.org/show_bug.cgi?id=329884\n\nReviewed by Yusuke Suzuki.\n\nWhen Procedure::resetReachability() finds a dead block, it resets the owner of\nevery value and then walks every value to remove the Upsilons that feed a P",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T18:32:02.363778+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "d6d67d920361871d6d93e4c7b186bf77aac344c7",
+    "url": "https://github.com/WebKit/WebKit/commit/d6d67d920361871d6d93e4c7b186bf77aac344c7",
+    "message": "[Image Redux] Support multiple instance documents per SVGImage\nhttps://bugs.webkit.org/show_bug.cgi?id=329764\n\nReviewed by Darin Adler.\n\nAdds support for a single SVGImage managing multiple instance documents. Currently, this is limited to one\nfor each unique combination of the settings that must be",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T18:32:41.516056+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "5eb574b25c0ecef997a275ce2be34a8b501a61f5",
+    "url": "https://github.com/WebKit/WebKit/commit/5eb574b25c0ecef997a275ce2be34a8b501a61f5",
+    "message": "[JSC] JSON.parse should build arrays without going through the generic array initialization\nhttps://bugs.webkit.org/show_bug.cgi?id=329699\nrdar://191501869\n\nReviewed by Sosuke Suzuki.\n\nIn this patch, we optimize materializeArray in JSON parser. It now allocates\nthe butterfly, fills the elements and ",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-03T18:33:23.439339+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "464bc663e6271b897cb7ebf592bef44a1f8d6b42",
+    "url": "https://github.com/WebKit/WebKit/commit/464bc663e6271b897cb7ebf592bef44a1f8d6b42",
+    "message": "[Image Redux] Remove unused includes of SVGImage.h\nhttps://bugs.webkit.org/show_bug.cgi?id=329713\n\nReviewed by Darin Adler.\n\n* Source/WebCore/html/canvas/CanvasRenderingContext2DBase.cpp:\n* Source/WebCore/loader/cache/CachedImage.cpp:\n* Source/WebCore/page/SettingsBase.cpp:\n\nCanonical link: https://",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
