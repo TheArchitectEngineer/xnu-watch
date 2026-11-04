@@ -87357,5 +87357,85 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T11:18:02.356524+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "edef8d91a55c894d97ef44ca9f3f09a84c5468bd",
+    "url": "https://github.com/WebKit/WebKit/commit/edef8d91a55c894d97ef44ca9f3f09a84c5468bd",
+    "message": "[JSC] `operationSizeOfVarargsWithSpread` should throw when there are too many arguments\nhttps://bugs.webkit.org/show_bug.cgi?id=329637\n\nReviewed by Yusuke Suzuki.\n\nWhen the length overflows, `operationSizeOfVarargsWithSpread(Forward)` returns a\nclamped length to force a `VarargsOverflow` exit, and t",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T11:18:40.109728+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "3366a3272f7535d3b06451307d33c2be1a313ef6",
+    "url": "https://github.com/WebKit/WebKit/commit/3366a3272f7535d3b06451307d33c2be1a313ef6",
+    "message": "Address Safer C++ static analysis warnings in WebCore/accessibility, editing, loader, page, platform and workers\nhttps://bugs.webkit.org/show_bug.cgi?id=329863\n\nReviewed by Rupin Mittal.\n\nFix the Safer C++ warnings the macOS and iOS bots report in these directories. Unsafe casts from `id`\nnow use ch",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T11:19:18.056612+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "311da4540c5f3af9fc926d79c27097bb2b7c2e6d",
+    "url": "https://github.com/WebKit/WebKit/commit/311da4540c5f3af9fc926d79c27097bb2b7c2e6d",
+    "message": "[OMG] non-tail indirect call needs to switch instances inside the patchpoint\nhttps://bugs.webkit.org/show_bug.cgi?id=323038\nrdar://183442838\n\nReviewed by Marcus Plutowski.\n\nRight now we only switch instances for tail indirect calls inside the\npatchpoint. For other calls we do it outside, however for",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T11:19:55.648387+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "36a24faddec226eb1bf9d83e9b98090752f27cfc",
+    "url": "https://github.com/WebKit/WebKit/commit/36a24faddec226eb1bf9d83e9b98090752f27cfc",
+    "message": "Canonicalize incoming MIME types\nhttps://bugs.webkit.org/show_bug.cgi?id=329737\nrdar://191522369\n\nReviewed by Ryosuke Niwa.\n\nWebKit didn't canonicalize every MIME type it received. The soup backend didn't\nlowercase them, and those from clients, as for loadData:MIMEType:, and from web\narchives kept t",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
