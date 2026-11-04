@@ -87277,5 +87277,85 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T03:26:43.421948+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "ef75f9b54b1267b1fca6cd04d10847caf7e9e21d",
+    "url": "https://github.com/WebKit/WebKit/commit/ef75f9b54b1267b1fca6cd04d10847caf7e9e21d",
+    "message": "Web Inspector: Pausing at the next statement stops in default class constructors and at the end of blackboxed scripts\nhttps://bugs.webkit.org/show_bug.cgi?id=329852\nrdar://187630174\n\nReviewed by Devin Rousso.\n\n\"Pause on next statement\" followed by a reload stopped in a place that Web Inspector could",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T03:27:21.916966+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "d24e80edb596e23daef9491a9272e967691bb358",
+    "url": "https://github.com/WebKit/WebKit/commit/d24e80edb596e23daef9491a9272e967691bb358",
+    "message": "[JSC] JSON.parse should convert doubles without scanning them twice\nhttps://bugs.webkit.org/show_bug.cgi?id=329545\nrdar://191382963\n\nReviewed by Keith Miller.\n\nlexNumber scanned the integer part of a number, then handed anything with a fraction, an exponent, or\nmore than nine digits to WTF::parseJSO",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T03:28:02.155495+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "2d4cefa9daa1326603eab4b6c1e8971d07f8abc5",
+    "url": "https://github.com/WebKit/WebKit/commit/2d4cefa9daa1326603eab4b6c1e8971d07f8abc5",
+    "message": "[JSC] `JSCellButterfly::createFromArray` should share the butterfly of a `CopyOnWriteArrayWithContiguous` array\nhttps://bugs.webkit.org/show_bug.cgi?id=329640\n\nReviewed by Yusuke Suzuki.\n\ncreateFromArray has a path which reuses the JSCellButterfly of the input when it\nis a CopyOnWriteArrayWithContig",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T03:28:40.567369+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a48afb70f2df4105d2712862a9d5a735a70d5599",
+    "url": "https://github.com/WebKit/WebKit/commit/a48afb70f2df4105d2712862a9d5a735a70d5599",
+    "message": "[Image Redux] Pass the appearance and settings an SVG image uses through ImageDrawDescriptor\nhttps://bugs.webkit.org/show_bug.cgi?id=329709\n\nReviewed by Darin Adler.\n\nUnify how SVGImage gets its input parameters by adding appearance and other settings that it was\npreviously getting through other mea",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
