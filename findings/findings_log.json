@@ -87437,5 +87437,105 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T18:44:14.531541+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "890b90dce392ff65154a69b8e84bb199107e55a4",
+    "url": "https://github.com/WebKit/WebKit/commit/890b90dce392ff65154a69b8e84bb199107e55a4",
+    "message": "[JSC] TypedArrays should be marked MayHaveIndexedAccessors\nhttps://bugs.webkit.org/show_bug.cgi?id=327930\nrdar://190305903\n\nReviewed by Yusuke Suzuki.\n\nA TypedArray on the prototype chain intercepts every canonical numeric index.\nIts [[Get]] returns TypedArrayGetElement without consulting its protot",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T18:44:52.822818+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "cf0f69b454045daf67459b3c2dbfbabae0c1e53b",
+    "url": "https://github.com/WebKit/WebKit/commit/cf0f69b454045daf67459b3c2dbfbabae0c1e53b",
+    "message": "[JSC] Do not patch the invalidation points of optimized code the GC found dead\nhttps://bugs.webkit.org/show_bug.cgi?id=330065\nrdar://191756092\n\nReviewed by Keith Miller.\n\nGC keeps executing CodeBlocks (in the callstack). So when jettisoning\na CodeBlock because it is now dead, there is no way to exec",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T18:45:31.263083+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "8747e6861209c1a5a75b57b52c27bf1b8a8702fb",
+    "url": "https://github.com/WebKit/WebKit/commit/8747e6861209c1a5a75b57b52c27bf1b8a8702fb",
+    "message": "[AXCustomColorMode] Add ability to quirk elements to add or remove filter\nhttps://bugs.webkit.org/show_bug.cgi?id=329567\nrdar://191392900\n\nReviewed by Alan Baradlay and Aditya Keerthi.\n\nLoad quirks for AX Custom Color Mode.\nAX custom color mode uses these to force filters on/off for specific\nelement",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T18:46:10.174381+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "f8d416f118202cfdb6b41a131df206d031c78381",
+    "url": "https://github.com/WebKit/WebKit/commit/f8d416f118202cfdb6b41a131df206d031c78381",
+    "message": "[AXCustomColorMode] Force disable AXCustomColorMode on certain sites\nrdar://190770135\nhttps://bugs.webkit.org/show_bug.cgi?id=328569\n\nReviewed by Simon Fraser and Lily Spiniolas.\n\nSome sites don't play well with AXCustomColorMode, so there is a need to\nforce disable AXCustomColorMode on certain site",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T18:46:48.729655+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a2bc1ad9909ef30f41c3fe35f1ebcf78c6c2db2b",
+    "url": "https://github.com/WebKit/WebKit/commit/a2bc1ad9909ef30f41c3fe35f1ebcf78c6c2db2b",
+    "message": "[JSC] JSPI: WebAssembly.Suspending wrapper callable from valueOf re-entry\nhttps://bugs.webkit.org/show_bug.cgi?id=321455\nrdar://178709201\n\nReviewed by Yusuke Suzuki and Keith Miller.\n\nnew WebAssembly.Suspending(f) returned a callable host function, so the JSPI\nstack-evacuation machinery could be ent",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
