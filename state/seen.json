@@ -2,6 +2,6 @@
   "apple-oss-distributions/xnu": "f6217f891ac0bb64f3d375211650a4c1ff8ca1ea",
   "apple-oss-distributions/dyld": "fd8d0c4d52320ebf64db34f3cb280310d905c5ae",
   "apple-oss-distributions/Security": "db15acbe6a7f257a859ad9a3bb86097bfe0679d9",
-  "WebKit/WebKit": "22d0ea35487a67870e232b0bf385fd30833d246a",
-  "swiftlang/swift": "aa31760bd81a0c13b021429a31b2d77078b18581"
+  "WebKit/WebKit": "54f84bfd31b5f4912ee87f3eb99f56c8e7985a0a",
+  "swiftlang/swift": "5a6fddfbcece03f95220cf90e8df0e062323cdd0"
 }

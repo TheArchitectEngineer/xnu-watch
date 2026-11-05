@@ -87717,5 +87717,45 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T12:48:47.974023+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "d4e7125a755c8905d635112fef823e1017bb9f11",
+    "url": "https://github.com/WebKit/WebKit/commit/d4e7125a755c8905d635112fef823e1017bb9f11",
+    "message": "[JSC] Fix ARM64 MacroAssembler memory accesses\nhttps://bugs.webkit.org/show_bug.cgi?id=329721\nrdar://191512220\n\nReviewed by Dan Hecht.\n\nWe audit and fix memory accesses in ARM64 MacroAssembler.\n\n- loadFloat16 / storeFloat16 (BaseIndex) took the register-offset fast path for TimesFour\n  instead of Ti",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T12:49:26.401068+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "d3a7b79dce3ec2775054138a5eec0e6ac8651f30",
+    "url": "https://github.com/WebKit/WebKit/commit/d3a7b79dce3ec2775054138a5eec0e6ac8651f30",
+    "message": "[JSC] `JSCellButterfly::createFromArray` should use `copyArrayElements`\nhttps://bugs.webkit.org/show_bug.cgi?id=329860\n\nReviewed by Yusuke Suzuki.\n\ncreateFromArray copied Int32, Contiguous and Double arrays with loops which reload\nthe butterfly, test the indexing type of the result and run a write b",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
