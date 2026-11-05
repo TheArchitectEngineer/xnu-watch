@@ -87757,5 +87757,105 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T20:20:48.425272+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "c5e929d60ff9a586525e05b8cadd52d28f2b3621",
+    "url": "https://github.com/WebKit/WebKit/commit/c5e929d60ff9a586525e05b8cadd52d28f2b3621",
+    "message": "Going back to a page that isn't in the back/forward cache finishes before its child frames load\nhttps://bugs.webkit.org/show_bug.cgi?id=329965\nrdar://191692479\n\nReviewed by Sihui Liu.\n\nWith UseUIProcessForBackForwardItemLoading, which site isolation turns on, a\nchild frame of a page loaded from sess",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T20:21:27.318075+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "1aa812de0ec4fe199bb4abbc830b5477b3a0cbc1",
+    "url": "https://github.com/WebKit/WebKit/commit/1aa812de0ec4fe199bb4abbc830b5477b3a0cbc1",
+    "message": "Replace the use of LEGACY_NODELETE with NODELETE in Source/JavaScriptCore\nhttps://bugs.webkit.org/show_bug.cgi?id=330203\n\nReviewed by Mark Lam.\n\nReplaced the use of LEGACY_NODELETE with NODELETE.\n\nNo new tests since there should be no behavioral changes.\n\nCanonical link: https://commits.webkit.org/3",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T20:22:06.057290+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "94b9e31c9dd8643bb91525368326b54f22b95424",
+    "url": "https://github.com/WebKit/WebKit/commit/94b9e31c9dd8643bb91525368326b54f22b95424",
+    "message": "[JSC] Spread call should not call operations when the callee is inlined\nhttps://bugs.webkit.org/show_bug.cgi?id=329634\n\nReviewed by Yusuke Suzuki.\n\n325231@main made `f(...array)` build the callee frame without calling C++ operations,\nbut only when the callee is not inlined. When it is inlined, Varar",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T20:22:45.203527+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "5c8d233b66d60198fc22a7f849ae9e4d2b942c22",
+    "url": "https://github.com/WebKit/WebKit/commit/5c8d233b66d60198fc22a7f849ae9e4d2b942c22",
+    "message": "[JSC] IntegerRangeOptimization should clamp offsets below -1 when merging\nhttps://bugs.webkit.org/show_bug.cgi?id=329854\n\nReviewed by Yusuke Suzuki.\n\nMerging relationships only produces offsets of -1, 0, or 1. `@a < @b + 2` cannot\nbe represented under this rule, but `@a < @b - 2` can be weakened to ",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T20:23:24.078333+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a93ac1aa01973a60e17bfe797dcf14aa820c9b1e",
+    "url": "https://github.com/WebKit/WebKit/commit/a93ac1aa01973a60e17bfe797dcf14aa820c9b1e",
+    "message": "Implement HTML video and audio element lazy-loading via the loading attribute\nhttps://bugs.webkit.org/show_bug.cgi?id=303995\n\nReviewed by Anne van Kesteren.\n\nThis patch implements a loading attribute for video and audio elements,\nenabling lazy loading of media sources and video poster images,\nand de",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
