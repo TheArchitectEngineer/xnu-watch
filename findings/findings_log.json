@@ -87537,5 +87537,105 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-04T23:59:35.777673+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "dbcd525613d75199b2f58d988dfc1903b33da92b",
+    "url": "https://github.com/WebKit/WebKit/commit/dbcd525613d75199b2f58d988dfc1903b33da92b",
+    "message": "Rename LocalDOMWindow::finishedLoading() to runPrintWhenLoadedSteps()\nhttps://bugs.webkit.org/show_bug.cgi?id=330170\nrdar://191840705\n\nReviewed by Abrar Rahman Protyasha.\n\nLocalDOMWindow::finishedLoading() only runs a print that window.print() deferred while the\ndocument was loading. Name it, and th",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T00:00:14.250792+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "41e0652fac6f0fb947d04f6fc13bc548cfebf418",
+    "url": "https://github.com/WebKit/WebKit/commit/41e0652fac6f0fb947d04f6fc13bc548cfebf418",
+    "message": "[JSC] Handle substring ropes in constant `String#startsWith` / `endsWith` fast path\nhttps://bugs.webkit.org/show_bug.cgi?id=329261\n\nReviewed by Yusuke Suzuki.\n\nDFG and FTL compare the string inline when the search string is a short\n8-bit constant, but every rope still calls the C++ operation. As 324",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T00:00:52.482904+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "eeb3fa9988912b02f7e20e1d2a9ae3ac0072378d",
+    "url": "https://github.com/WebKit/WebKit/commit/eeb3fa9988912b02f7e20e1d2a9ae3ac0072378d",
+    "message": "[JSC] Probe::Page::set must dirty every chunk that a straddling write touches\nhttps://bugs.webkit.org/show_bug.cgi?id=330079\nrdar://191782447\n\nReviewed by Mark Lam.\n\nroundUpToMultipleOf use is incorrect in Probe::Page::set (wrong order of\nparameters). This patch fixes the code. We also fix static_as",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T00:01:31.155056+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "131c95e85e08d2fa2684b193f536a59c3544265d",
+    "url": "https://github.com/WebKit/WebKit/commit/131c95e85e08d2fa2684b193f536a59c3544265d",
+    "message": "[JSC] Fix ARM64 load-exclusive / store-exclusive atomic sequences\nhttps://bugs.webkit.org/show_bug.cgi?id=329717\nrdar://191511640\n\nReviewed by Sosuke Suzuki.\n\nThe LDXR / STXR based atomics had three issues. (Note: this means it\ndoes not affect on Apple platforms as all supported CPUs with JIT are\nha",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T00:02:09.616661+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "a88462527b70e12989f4ce72afa8697e43334f84",
+    "url": "https://github.com/WebKit/WebKit/commit/a88462527b70e12989f4ce72afa8697e43334f84",
+    "message": "[Site Isolation] Web Inspector: Type profiler and code coverage toggles do not reach frame targets\nhttps://bugs.webkit.org/show_bug.cgi?id=328714\nrdar://problem/190887811\n\nReviewed by Basuke Suzuki and BJ Burg.\n\nTurning on \"Show JavaScript type information\" or \"Enable code coverage\" while Web Inspec",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
