@@ -87637,5 +87637,85 @@
     "layer1": {},
     "layer2": {},
     "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T04:56:11.679857+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "b46acf46272de7040b601839fbbcdea5910ee25c",
+    "url": "https://github.com/WebKit/WebKit/commit/b46acf46272de7040b601839fbbcdea5910ee25c",
+    "message": "[JSC] Add cache for Intl.Locale\nhttps://bugs.webkit.org/show_bug.cgi?id=330024\nrdar://191722110\n\nReviewed by Sosuke Suzuki.\n\nThis patch adds Intl.Locale caching mechanism into IntlCache when option\nis not specified. Intl.Locale constructor just computes m_localeID and\nm_nonUnicodeExtensions, thus we",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T04:56:50.387803+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "53bedf6450aff054dccc25b79485e7e313398adf",
+    "url": "https://github.com/WebKit/WebKit/commit/53bedf6450aff054dccc25b79485e7e313398adf",
+    "message": "Store one status byte per bucket in WTF::HashTable\nhttps://bugs.webkit.org/show_bug.cgi?id=330025\nrdar://191722665\n\nReviewed by Yusuke Suzuki.\n\nThe status byte stores empty, deleted, or 7 bits of the key's hash. (And we use\nadditional hash bits, scaled with table size, to index into the status byte\n",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T04:57:29.091759+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "c983da47ed36fba593ec9b0d855de2b0abef599c",
+    "url": "https://github.com/WebKit/WebKit/commit/c983da47ed36fba593ec9b0d855de2b0abef599c",
+    "message": "RTT::jsToWasmICEntrypoint should use DoNotHaveTagRegisters\nhttps://bugs.webkit.org/show_bug.cgi?id=321609\nrdar://178703923\n\nReviewed by Yusuke Suzuki.\n\nLocal lambda materializeTagRegistersIfNeeded is not called in all\nbranches of the switch statement in jsToWasmICEntrypoint which may allow\na stale v",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
+  },
+  {
+    "timestamp": "2026-11-05T04:58:07.364563+00:00",
+    "repo": "WebKit/WebKit",
+    "sha": "ddc4654648e05d06670903ef5d495088b826a7dc",
+    "url": "https://github.com/WebKit/WebKit/commit/ddc4654648e05d06670903ef5d495088b826a7dc",
+    "message": "[JSC] LLInt op_iterator_open array profile update never executes\nhttps://bugs.webkit.org/show_bug.cgi?id=329879\nrdar://191635208\n\nReviewed by Keith Miller.\n\nupdateArrayProfile in op_iterator_open in LLInt is not executed at all\nsince it is loading virtual register and not getting a value, and since\n",
+    "verdict": {
+      "collective_outcome": "DISCARD",
+      "reportable_vote_count": 0,
+      "total_models_responded": 0,
+      "representative_hypothesis": "",
+      "representative_reasoning": "",
+      "next_step_for_human": "",
+      "category": "none",
+      "confidence": 0
+    },
+    "layer1": {},
+    "layer2": {},
+    "layer3": {}
   }
 ]
